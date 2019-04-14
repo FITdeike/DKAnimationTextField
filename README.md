@@ -6,6 +6,7 @@
 var id = DKAnimationTextField ()
 
 // 设置属性
+
 id = DKAnimationTextField (frame: CGRect(x: 40, y: 200, width: 300, height: 40))
 
 id.placeHoderColor = UIColor.lightGray
