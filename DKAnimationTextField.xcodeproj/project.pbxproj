@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BE38ED2A20E0E42100D1AA5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE38ED2920E0E42100D1AA5E /* AppDelegate.swift */; };
+		BE38ED2C20E0E42100D1AA5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE38ED2B20E0E42100D1AA5E /* ViewController.swift */; };
+		BE38ED2F20E0E42100D1AA5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE38ED2D20E0E42100D1AA5E /* Main.storyboard */; };
+		BE38ED3120E0E42500D1AA5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE38ED3020E0E42500D1AA5E /* Assets.xcassets */; };
+		BE38ED3420E0E42500D1AA5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE38ED3220E0E42500D1AA5E /* LaunchScreen.storyboard */; };
+		BE38ED3F20E0E42600D1AA5E /* DKAnimationTextFieldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE38ED3E20E0E42600D1AA5E /* DKAnimationTextFieldTests.swift */; };
+		BE38ED4A20E0E42600D1AA5E /* DKAnimationTextFieldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE38ED4920E0E42600D1AA5E /* DKAnimationTextFieldUITests.swift */; };
+		BE38ED5820E0E44600D1AA5E /* DKAnimationTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE38ED5720E0E44600D1AA5E /* DKAnimationTextField.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BE38ED3B20E0E42600D1AA5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE38ED1E20E0E42100D1AA5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE38ED2520E0E42100D1AA5E;
+			remoteInfo = DKAnimationTextField;
+		};
+		BE38ED4620E0E42600D1AA5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BE38ED1E20E0E42100D1AA5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BE38ED2520E0E42100D1AA5E;
+			remoteInfo = DKAnimationTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BE38ED2620E0E42100D1AA5E /* DKAnimationTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DKAnimationTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE38ED2920E0E42100D1AA5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BE38ED2B20E0E42100D1AA5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BE38ED2E20E0E42100D1AA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BE38ED3020E0E42500D1AA5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BE38ED3320E0E42500D1AA5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BE38ED3520E0E42500D1AA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE38ED3A20E0E42600D1AA5E /* DKAnimationTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKAnimationTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE38ED3E20E0E42600D1AA5E /* DKAnimationTextFieldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKAnimationTextFieldTests.swift; sourceTree = "<group>"; };
+		BE38ED4020E0E42600D1AA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE38ED4520E0E42600D1AA5E /* DKAnimationTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DKAnimationTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE38ED4920E0E42600D1AA5E /* DKAnimationTextFieldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKAnimationTextFieldUITests.swift; sourceTree = "<group>"; };
+		BE38ED4B20E0E42600D1AA5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BE38ED5720E0E44600D1AA5E /* DKAnimationTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DKAnimationTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BE38ED2320E0E42100D1AA5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE38ED3720E0E42600D1AA5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE38ED4220E0E42600D1AA5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BE38ED1D20E0E42100D1AA5E = {
+			isa = PBXGroup;
+			children = (
+				BE38ED2820E0E42100D1AA5E /* DKAnimationTextField */,
+				BE38ED3D20E0E42600D1AA5E /* DKAnimationTextFieldTests */,
+				BE38ED4820E0E42600D1AA5E /* DKAnimationTextFieldUITests */,
+				BE38ED2720E0E42100D1AA5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BE38ED2720E0E42100D1AA5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BE38ED2620E0E42100D1AA5E /* DKAnimationTextField.app */,
+				BE38ED3A20E0E42600D1AA5E /* DKAnimationTextFieldTests.xctest */,
+				BE38ED4520E0E42600D1AA5E /* DKAnimationTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BE38ED2820E0E42100D1AA5E /* DKAnimationTextField */ = {
+			isa = PBXGroup;
+			children = (
+				BE38ED2920E0E42100D1AA5E /* AppDelegate.swift */,
+				BE38ED5720E0E44600D1AA5E /* DKAnimationTextField.swift */,
+				BE38ED2B20E0E42100D1AA5E /* ViewController.swift */,
+				BE38ED2D20E0E42100D1AA5E /* Main.storyboard */,
+				BE38ED3020E0E42500D1AA5E /* Assets.xcassets */,
+				BE38ED3220E0E42500D1AA5E /* LaunchScreen.storyboard */,
+				BE38ED3520E0E42500D1AA5E /* Info.plist */,
+			);
+			path = DKAnimationTextField;
+			sourceTree = "<group>";
+		};
+		BE38ED3D20E0E42600D1AA5E /* DKAnimationTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				BE38ED3E20E0E42600D1AA5E /* DKAnimationTextFieldTests.swift */,
+				BE38ED4020E0E42600D1AA5E /* Info.plist */,
+			);
+			path = DKAnimationTextFieldTests;
+			sourceTree = "<group>";
+		};
+		BE38ED4820E0E42600D1AA5E /* DKAnimationTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BE38ED4920E0E42600D1AA5E /* DKAnimationTextFieldUITests.swift */,
+				BE38ED4B20E0E42600D1AA5E /* Info.plist */,
+			);
+			path = DKAnimationTextFieldUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BE38ED2520E0E42100D1AA5E /* DKAnimationTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE38ED4E20E0E42600D1AA5E /* Build configuration list for PBXNativeTarget "DKAnimationTextField" */;
+			buildPhases = (
+				BE38ED2220E0E42100D1AA5E /* Sources */,
+				BE38ED2320E0E42100D1AA5E /* Frameworks */,
+				BE38ED2420E0E42100D1AA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DKAnimationTextField;
+			productName = DKAnimationTextField;
+			productReference = BE38ED2620E0E42100D1AA5E /* DKAnimationTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BE38ED3920E0E42600D1AA5E /* DKAnimationTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE38ED5120E0E42600D1AA5E /* Build configuration list for PBXNativeTarget "DKAnimationTextFieldTests" */;
+			buildPhases = (
+				BE38ED3620E0E42600D1AA5E /* Sources */,
+				BE38ED3720E0E42600D1AA5E /* Frameworks */,
+				BE38ED3820E0E42600D1AA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE38ED3C20E0E42600D1AA5E /* PBXTargetDependency */,
+			);
+			name = DKAnimationTextFieldTests;
+			productName = DKAnimationTextFieldTests;
+			productReference = BE38ED3A20E0E42600D1AA5E /* DKAnimationTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BE38ED4420E0E42600D1AA5E /* DKAnimationTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE38ED5420E0E42600D1AA5E /* Build configuration list for PBXNativeTarget "DKAnimationTextFieldUITests" */;
+			buildPhases = (
+				BE38ED4120E0E42600D1AA5E /* Sources */,
+				BE38ED4220E0E42600D1AA5E /* Frameworks */,
+				BE38ED4320E0E42600D1AA5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE38ED4720E0E42600D1AA5E /* PBXTargetDependency */,
+			);
+			name = DKAnimationTextFieldUITests;
+			productName = DKAnimationTextFieldUITests;
+			productReference = BE38ED4520E0E42600D1AA5E /* DKAnimationTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BE38ED1E20E0E42100D1AA5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "西南凯亚";
+				TargetAttributes = {
+					BE38ED2520E0E42100D1AA5E = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					BE38ED3920E0E42600D1AA5E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BE38ED2520E0E42100D1AA5E;
+					};
+					BE38ED4420E0E42600D1AA5E = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BE38ED2520E0E42100D1AA5E;
+					};
+				};
+			};
+			buildConfigurationList = BE38ED2120E0E42100D1AA5E /* Build configuration list for PBXProject "DKAnimationTextField" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BE38ED1D20E0E42100D1AA5E;
+			productRefGroup = BE38ED2720E0E42100D1AA5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BE38ED2520E0E42100D1AA5E /* DKAnimationTextField */,
+				BE38ED3920E0E42600D1AA5E /* DKAnimationTextFieldTests */,
+				BE38ED4420E0E42600D1AA5E /* DKAnimationTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BE38ED2420E0E42100D1AA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE38ED3420E0E42500D1AA5E /* LaunchScreen.storyboard in Resources */,
+				BE38ED3120E0E42500D1AA5E /* Assets.xcassets in Resources */,
+				BE38ED2F20E0E42100D1AA5E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE38ED3820E0E42600D1AA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE38ED4320E0E42600D1AA5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BE38ED2220E0E42100D1AA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE38ED5820E0E44600D1AA5E /* DKAnimationTextField.swift in Sources */,
+				BE38ED2C20E0E42100D1AA5E /* ViewController.swift in Sources */,
+				BE38ED2A20E0E42100D1AA5E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE38ED3620E0E42600D1AA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE38ED3F20E0E42600D1AA5E /* DKAnimationTextFieldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE38ED4120E0E42600D1AA5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE38ED4A20E0E42600D1AA5E /* DKAnimationTextFieldUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BE38ED3C20E0E42600D1AA5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE38ED2520E0E42100D1AA5E /* DKAnimationTextField */;
+			targetProxy = BE38ED3B20E0E42600D1AA5E /* PBXContainerItemProxy */;
+		};
+		BE38ED4720E0E42600D1AA5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BE38ED2520E0E42100D1AA5E /* DKAnimationTextField */;
+			targetProxy = BE38ED4620E0E42600D1AA5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BE38ED2D20E0E42100D1AA5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE38ED2E20E0E42100D1AA5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BE38ED3220E0E42500D1AA5E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BE38ED3320E0E42500D1AA5E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BE38ED4C20E0E42600D1AA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BE38ED4D20E0E42600D1AA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BE38ED4F20E0E42600D1AA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4YZTKHLV7;
+				INFOPLIST_FILE = DKAnimationTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travelSky.DKAnimationTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BE38ED5020E0E42600D1AA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4YZTKHLV7;
+				INFOPLIST_FILE = DKAnimationTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travelSky.DKAnimationTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BE38ED5220E0E42600D1AA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4YZTKHLV7;
+				INFOPLIST_FILE = DKAnimationTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travelSky.DKAnimationTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKAnimationTextField.app/DKAnimationTextField";
+			};
+			name = Debug;
+		};
+		BE38ED5320E0E42600D1AA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4YZTKHLV7;
+				INFOPLIST_FILE = DKAnimationTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travelSky.DKAnimationTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DKAnimationTextField.app/DKAnimationTextField";
+			};
+			name = Release;
+		};
+		BE38ED5520E0E42600D1AA5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4YZTKHLV7;
+				INFOPLIST_FILE = DKAnimationTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travelSky.DKAnimationTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKAnimationTextField;
+			};
+			name = Debug;
+		};
+		BE38ED5620E0E42600D1AA5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E4YZTKHLV7;
+				INFOPLIST_FILE = DKAnimationTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = travelSky.DKAnimationTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DKAnimationTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BE38ED2120E0E42100D1AA5E /* Build configuration list for PBXProject "DKAnimationTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE38ED4C20E0E42600D1AA5E /* Debug */,
+				BE38ED4D20E0E42600D1AA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE38ED4E20E0E42600D1AA5E /* Build configuration list for PBXNativeTarget "DKAnimationTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE38ED4F20E0E42600D1AA5E /* Debug */,
+				BE38ED5020E0E42600D1AA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE38ED5120E0E42600D1AA5E /* Build configuration list for PBXNativeTarget "DKAnimationTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE38ED5220E0E42600D1AA5E /* Debug */,
+				BE38ED5320E0E42600D1AA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE38ED5420E0E42600D1AA5E /* Build configuration list for PBXNativeTarget "DKAnimationTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE38ED5520E0E42600D1AA5E /* Debug */,
+				BE38ED5620E0E42600D1AA5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BE38ED1E20E0E42100D1AA5E /* Project object */;
+}
